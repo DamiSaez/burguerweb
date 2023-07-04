@@ -6,6 +6,7 @@
 .main{
     width: 100%;
 }
+/*inicio seccion 1*/
 .contenedor-1{
     width: 100%;
     height: 100vh;
@@ -63,7 +64,7 @@
     color:#fff ;
 }
 .banner_texto h1{
-    font-size: 70px;
+    font-size: 40px;
 }
 .banner_texto p{
     font-size: 30px;
@@ -84,3 +85,57 @@
     color: #f64b3c;
     
 }
+/*fin de seccion 1*/
+
+/*inicio seccion 2*/
+.contenedor-2{
+    width: 100%;
+    height: 80vh;
+    background-color: #f6eedf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    padding: 50px 0;
+    color: #f64b3c;
+}
+.text{
+    
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text h2{
+    font-size: 36px;
+}
+.text p{
+    margin: 60px;
+    font-size: 20px;
+}
+.fotos{
+    
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.foto_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto_img img{
+    border-radius: 15px;
+}
+.foto_img h3{
+    margin-top: 10px 0;
+    font-size: 20px;
+}
+.fotos_img p{
+    font-size: 18px;
+}
+/*fin de seccion 2*/
